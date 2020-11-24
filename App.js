@@ -1,11 +1,10 @@
 import React from 'react';
-import { StatusBar, View } from 'react-native';
+import {View, StatusBar} from 'react-native';
+import HomeStackScreen from "./Router";
 
-import Router from "./Router";
+import {fonts} from "./src/utils/fonts";
 
-import LoadAssets from "./src/utils/loadAssets";
-
-import {fonts} from './src/utils/fonts';
+import LoadAssets from './src/utils/loadAssets';
 
 const assets = [];
 
@@ -13,15 +12,11 @@ const App = () => {
   return (
     <LoadAssets fonts={fonts} assets={assets}>
       <View style={{ flex: 1 }}>
-        <StatusBar barStyle={"dark-content"}></StatusBar>
-          <Router></Router>
+        <StatusBar barStyle={"light-content"}></StatusBar>
+          <HomeStackScreen></HomeStackScreen>
       </View>
     </LoadAssets>
-    
-  )
-
+  );
 };
 
-export default App; 
-
-//2f85241e292414a94e5f5a7dbb21f380
+export default App;

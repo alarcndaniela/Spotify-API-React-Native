@@ -1,20 +1,18 @@
 module.exports = {
 	SCREEN: {
+		MAIN: 'Main',
 		HOME: 'Home',
 		DETAILS: 'k',
-		CASTANDCREW: "More info",
     },
-	API_KEY: "2f85241e292414a94e5f5a7dbb21f380",
+	CLIENT_ID: "54611887bbe64bd0b186175f13477c84",
+	CLIENT_SECRET: "357fc43b162f498085bfb82257632c6b",
 	COLORS: {
-		WARNING: '#FFBC03',
-		LIGHT_GRAY: '#eee',
-		GRAY: '#ACAEAD',
+		LIGHT_GRAY: '#6c757d',
+		GRAY: '#212529',
 		LIGHT: '#FFFFFF',
-		PRIMARY: '#5FB1A2',
+		PRIMARY: '#6930c3',
+		SECONDARY: '#5e60ce',
 		TEXT_COLOR: '#121212',
+		TEXT_COLOR2: '#AFB0B0',
 	},
-	SCREEN_DETAILS:{
-		
-	},
-
 };

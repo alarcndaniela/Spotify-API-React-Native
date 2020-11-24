@@ -1,3 +1,2 @@
-export * from "./HomeScreen";
-export * from "./DetailsScreen.js";
-export * from "./CastandCrew";
+export * from "./MusicSearch";
+export * from "./DetailsScreen";

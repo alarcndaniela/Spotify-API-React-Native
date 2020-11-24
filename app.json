@@ -1,18 +1,18 @@
 {
     "expo": {
-        "name": "Movies",
-        "slug": "movies",
+        "name": "Songs",
+        "slug": "songs",
         "version": "1.0.0",
-        "platform": [
+        "platforms": [
             "android",
             "ios"
         ],
         "ios": {
-            "bundleIdentifier": "cr.ac.ucr.movies",
+            "bundleIdentifier": "cr.ac.ucr.songs",
             "buildNumber": "1.0.0"
         },
         "android": {
-            "package":"cr.ac.ucr.movies",
+            "package":"cr.ac.ucr.songs",
             "versionCode": 1
         },
         "description": ""
